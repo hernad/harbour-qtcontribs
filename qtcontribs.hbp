@@ -58,3 +58,6 @@ hbdbu/hbdbu.hbp
 #
 hbqt/qtwebkit/hbqtwebkit.hbp
 hbqt/qtdesigner/hbqtdesigner.hbp
+
+/opt/harbour/addons/hbqt/hbqtcore.hbc
+
