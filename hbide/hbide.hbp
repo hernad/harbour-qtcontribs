@@ -8,6 +8,7 @@
 
 {android}-hblib
 
+-plugin=../hbqt/hbmk2_qt.hb
 -inc
 -w3
 -es2
@@ -29,6 +30,14 @@ hbformat.hbc
 
 -env:HB_DYNLOAD_RDDADS=yes
 rddads.hbc
+
+# hernad stolen from gtqtc.hbp
+{darwin}-depincpath=qt5:/Developer/qt/include
+{darwin}-depincpath=qt5:/Library/Frameworks
+{darwin}-depincpath=qt5:/usr/local/include
+hbgtqtc.hbc
+
+
 
 main.prg
 parts.prg

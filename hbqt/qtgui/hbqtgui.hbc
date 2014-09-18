@@ -20,9 +20,9 @@ libs=../qtcore/hbqtcore.hbc
 {!HB_STATIC_QT&(HB_QT_MAJOR_VER='5')&(allwin|os2|linux)}libs=Qt5Gui
 {!HB_STATIC_QT&(HB_QT_MAJOR_VER='5')&(allwin|os2|linux)}libs=Qt5Widgets
 {!HB_STATIC_QT&(HB_QT_MAJOR_VER='5')&(allwin|os2|linux)}libs=Qt5PrintSupport
-{!HB_STATIC_QT&(HB_QT_MAJOR_VER='5')&darwin}frameworks=QtGui
-{!HB_STATIC_QT&(HB_QT_MAJOR_VER='5')&darwin}frameworks=QtWidgets
-{!HB_STATIC_QT&(HB_QT_MAJOR_VER='5')&darwin}frameworks=QtPrintSupport
+{!HB_STATIC_QT&(HB_QT_MAJOR_VER='5')&darwin}frameworks=Qt5Gui
+{!HB_STATIC_QT&(HB_QT_MAJOR_VER='5')&darwin}frameworks=Qt5Widgets
+{!HB_STATIC_QT&(HB_QT_MAJOR_VER='5')&darwin}frameworks=Qt5PrintSupport
 
 {HB_STATIC_QT&allwin}libs=${_HB_DYNPREF}${hb_name}s${_HB_DYNSUFF}
 {HB_STATIC_QT&linux|beos}libs=${_HB_DYNPREF}${hb_name}${_HB_DYNSUFF}
