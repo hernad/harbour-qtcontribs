@@ -1,0 +1,60 @@
+#
+# $Id: qtcontribs.hbp 342 2014-08-31 19:00:40Z bedipritpal $
+#
+
+-hbcontainer
+
+#    Generate SVN Revision Info
+#
+-vcshead=hbide/hbide_v.ch
+
+#    HWGDebug
+debug/hwgdebug.hbp
+
+#    Qt Modules - mandatory
+#
+hbqt/qtcore/hbqtcore.hbp
+hbqt/qtgui/hbqtgui.hbp
+hbqt/qtnetwork/hbqtnetwork.hbp
+
+#    Uncomment whatever module is not required
+#
+hbqt/qtdeclarative/hbqtdeclarative.hbp
+hbqt/qtmultimedia/hbqtmultimedia.hbp
+hbqt/qtmultimediawidgets/hbqtmultimediawidgets.hbp
+hbqt/qtopengl/hbqtopengl.hbp
+hbqt/qtscript/hbqtscript.hbp
+hbqt/qtsql/hbqtsql.hbp
+hbqt/qtsvg/hbqtsvg.hbp
+hbqt/qtxml/hbqtxml.hbp
+hbqt/qtpositioning/hbqtpositioning.hbp
+hbqt/qtwebsockets/hbqtwebsockets.hbp
+hbqt/qtbluetooth/hbqtbluetooth.hbp
+hbqt/qtqml/hbqtqml.hbp
+hbqt/qtquick/hbqtquick.hbp
+hbqt/qtsensors/hbqtsensors.hbp
+hbqt/qzxing/hbqtzxing.hbp
+
+
+#    Qt Based Widgets
+hbqtwidgets/hbqtwidgets.hbp
+
+#    Qt based Xbase++ compliant Class Framework
+#
+hbxbp/hbxbp.hbp
+
+#    Qt based Harbour IDE
+#
+hbide/hbide.hbp
+
+#    Qt based Harbour DBU
+#
+hbdbu/hbdbu.hbp
+
+#    These modules are not supported on android 
+#    and I found no way to stop builds for android so placing at the end 
+#    to avoid another .hbp. This will show some errors at the end of 
+#    android builds...
+#
+hbqt/qtwebkit/hbqtwebkit.hbp
+hbqt/qtdesigner/hbqtdesigner.hbp
